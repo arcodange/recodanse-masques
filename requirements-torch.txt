@@ -1,0 +1,5 @@
+# requirements-torch.txt — torch et torchvision, depuis l'index « CPU » de PyTorch
+# (https://download.pytorch.org/whl/cpu) : pas de CUDA, amd64 comme arm64.
+# Versions = celles de l'image d'analyses de RecoDanse.
+torch==2.8.0+cpu
+torchvision==0.23.0
